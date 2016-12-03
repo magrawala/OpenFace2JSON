@@ -1,6 +1,6 @@
 OpenFace2JSON
 =============
-Tool for converting OpenFace's FaceLandmarkImg files into json
+Tool for converting [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace)'s FaceLandmarkImg files into json
 
 Usage: node of2json path
 
