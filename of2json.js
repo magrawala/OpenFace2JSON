@@ -29,7 +29,7 @@ var frameRootName = ptsFiles[0].substring(0,ind);
 var prevFrameRootName = frameRootName;
 for (var i in ptsFiles) {
     //Construct object for face in openFaceFile to result object
-    var currFaceObj = {};
+    var currFaceObj = {generatedBy: "OpenFace"};
 
     // Read in the openFace .pts file
     var fname = path + ptsFiles[i];
